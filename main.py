@@ -11,19 +11,4 @@ CLOCK = pygame.time.Clock()
 def __main__():
     menu(GAME_DISPLAY)
 
-
-def test():
-    board = Board(GAME_DISPLAY)
-    AI_player = PlayerAI("W", board, 1, False)
-    AI_player2 = PlayerAI("B", board, 3, True)
-    SF_player1 = PlayerStockfish("B", board, 9, True)
-    SF_player2 = PlayerStockfish("W", board, 10, False)
-
-    AIvsAIgame = AIvsAI(playerB=SF_player1, playerW=SF_player2, board=board, game_display=GAME_DISPLAY)
-    AIvsAIgame.start()
-
-
-# test()
-
-
 __main__()

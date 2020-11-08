@@ -14,7 +14,7 @@ magenta = (235, 20, 212)
 blue = (20, 212, 235)
 white = (255, 255, 255)
 # default AI-tip depth
-AI_tip_depth = 15
+AI_tip_depth = 16
 # default font
 font = "comicsansms"
 
